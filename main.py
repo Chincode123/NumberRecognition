@@ -83,6 +83,6 @@ class NeuralNetwork:
     def cost_derivitive(self, output_activations, y):
         return (output_activations - y)
 
-if __name__ == "__mai)n__":
+if __name__ == "__main__":
     network = NeuralNetwork([784, 50, 30, 10])
     print("weights", network.weights, "\nbiases", network.biases, "\nactivation", network.activation)
